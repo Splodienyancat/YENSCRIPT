@@ -10,7 +10,7 @@ wget, jq
 1. You need to have an account on [openexchangerates](https://openexchangerates.org/) and get your app ID from the account menu.
 2. Now paste your app ID infront of everywhere it says "app_id=" in the update function.
 Feel free to change the directories too if you want but I like to leave it in /usr/bin directory.
-3. You need to run the yenscript.sh file with the arguement "-u" to get the most recent exchange rate.
+3. You need to run the yenscript.sh file with the argument "-u" to get the most recent exchange rate.
 4. The program is now ready to use!
 
 -Use
