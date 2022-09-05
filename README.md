@@ -7,11 +7,7 @@ wget, jq
 
 -Setup
 
-1. You need to have an account on [openexchangerates](https://openexchangerates.org/) and get your app ID from the account menu.
-2. Now paste your app ID infront of everywhere it says "app_id=" in the update function.
-Feel free to change the directories too if you want but I like to leave it in /usr/bin directory.
-3. You need to run the yenscript.sh file with the argument "-u" to get the most recent exchange rate.
-4. The program is now ready to use!
+Just run the install.sh if running ubuntu
 
 -Use
 
@@ -21,6 +17,6 @@ I personally like to set up an alias for the script though I dont see it being t
 
 -Notes
 
-I highly reccomend using an alias for this!
-Yes I know I COULD add a way to do other currencies but I only buy things with USD and YEN so. :/
 To my knowledge this ONLY runs on linux though it could run on windows through other means.
+
+Made for ubuntu systems! Compatibility is unknown on other systems

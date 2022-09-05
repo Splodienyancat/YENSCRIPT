@@ -1,0 +1,2 @@
+#ytu alias
+alias ytu="/usr/bin/yenscript/yenscript.sh"

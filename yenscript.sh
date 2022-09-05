@@ -1,6 +1,6 @@
 convert()
 {
-rate=$(jq .rates.JPY /bin/yenscript/latest.json)
+rate=$(jq .rates.JPY /usr/bin/yenscript/latest.json)
 
 echo "The current exchange rate for USD -> JPY is" $rate.
 
@@ -14,11 +14,13 @@ echo $out"$"
 #Pulls from the openexchange api and outputs the "latest.json" file to this directory
 update()
 {
-rm /usr/bin/yenscript/latest.json
+appID=$("PLACEHOLDER")
 
-wget https://openexchangerates.org/api/latest.json?app_id=
+sudo rm /usr/bin/yenscript/latest.json
 
-mv latest.json?app_id= /usr/bin/yenscript/latest.json
+wget https://openexchangerates.org/api/latest.json?app_id=$appID
+
+mv latest.json?app_id=$appID /usr/bin/yenscript/latest.json
 }
 
 #ARG HANDLER###################################################################################################
